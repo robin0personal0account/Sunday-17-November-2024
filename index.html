@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feel Better Soon, Mahi!</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fdf2f8;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #ff6b6b;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .message {
+            text-align: center;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .emoji {
+            font-size: 2em;
+        }
+
+        .tips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .tip {
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            width: 120px;
+            transition: transform 0.2s;
+        }
+
+        .tip:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+
+        .cute-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .tips {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .tip {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <h1>Hey Mahi! 💖</h1>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Cute Image -->
+        <img src="img/imh.png" alt="Cute Unicorn" class="cute-image">
+
+        <!-- Uplifting Message -->
+        <p class="message">Hope you're feeling better soon! Remember, you're stronger than you think 🌈🌟.</p>
+
+        <!-- Tips for Comfort -->
+        <div class="tips">
+            <div class="tip">🌼 Rest Well</div>
+            <div class="tip">☕ Warm coffe</div>
+            <div class="tip">💧 Stay Hydrated</div>
+            <div class="tip">🎶 Listen to Music</div>
+            <div class="tip">📖 Read a Book</div>
+            <div class="tip">💤 Take a Nap</div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>Sending lots of love and hugs! 🤗💕</footer>
+
+</body>
+
+</html>
